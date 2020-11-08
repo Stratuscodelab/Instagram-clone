@@ -1,0 +1,15 @@
+//Notes//
+
+// Colourzilla browser extension for getting colours codes off websites //
+
+// here is an example of a hook in react  --   const [posts, setPosts] = useState ([]); -- //
+
+
+// useEffect - runs a piece of code based on a specific condition, will run only once and it will update when there has been a change.. you cah have several of these //
+
+
+      {user?.displayName ? (
+      <ImageUpload username={user.displayName} />
+    ): (
+      <h3> Sorry you need to log in to upload</h3>
+    )}
